@@ -69,9 +69,9 @@ h1{
     color: aqua;
 }
 
-.descarga{
+.descargar{
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: rgb(119, 126, 126);
     border: none;
     border-radius: 20px;
     margin-top: 10px;
@@ -79,7 +79,7 @@ h1{
     box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
 }
 
-.descarga:hover{
+.descargar:hover{
     background-color: #fff;
     box-shadow: none;
 }
@@ -87,4 +87,5 @@ h1{
 .main img{
     width: 350px;
     border: 7px solid aqua;
+    height: 520px;
 }
