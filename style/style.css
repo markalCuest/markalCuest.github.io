@@ -8,13 +8,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.wrapper{
+.wrapper {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
     color: #fff;
 }
 
-.menu a{
+.brand span{
+    color: aqua;
+}
+
+.menu a {
     color: #fff;
 }
