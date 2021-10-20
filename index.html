@@ -7,45 +7,51 @@
 
     <!--Css-->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/utility.css">
 
     <!--Tipografia-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!--Iconos-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <body>
-    <div class="wrapper">
-        <header>
-            <nav class="navbar">
-                <div class="brand">
-                    <h2>M <span>C</span></h2>
-                </div>
-                <ul class="menu">
-                    <li><a href="#" class="activo">Home</a></li>
-                    <li><a href="#">DWEC</a></li>
-                    <li><a href="#">DWES</a></li>
-                    <li><a href="#">DAPW</a></li>
-                    <li><a href="#">DINT</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main">
-            <div class="info-content">
-                <h1>Marcos Cuesta Ortega</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                <a download href="#">
-                    <button class="descargar">
-                        Descargar cv
-                    </button> 
-                </a>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="brand-and-toggler">
+                <a href="index.html" class="navbar-brand">Marcos</a>
+                <button type="button" class="navbar-toggler" id="navbar-toggler">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
             </div>
-            <img src="img/smoke.jpg" alt="smoke">
-        </main>
-    </div>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item nav-active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item nav-active">
+                        <a href="#" class="nav-link">DWEC</a>
+                    </li>
+                    <li class="nav-item nav-active">
+                        <a href="#" class="nav-link">DWES</a>
+                    </li>
+                    <li class="nav-item nav-active">
+                        <a href="#" class="nav-link">DAPW</a>
+                    </li>
+                    <li class="nav-item nav-active">
+                        <a href="#" class="nav-link">DINT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-
+    <!--javascript-->
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
