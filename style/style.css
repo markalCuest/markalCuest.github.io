@@ -21,6 +21,10 @@ body {
     padding: 2em;
 }
 
+.brand{
+    margin-top: -7px;
+}
+
 .brand span{
     color: aqua;
 }
@@ -38,6 +42,7 @@ body {
 .menu a {
     color: #fff;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
 .menu activo{
@@ -46,4 +51,6 @@ body {
 
 .menu a:hover{
     background-color: aqua;
+    color: #191c32;
+    transition: ease-in .4s;
 }
