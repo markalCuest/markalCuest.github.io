@@ -15,10 +15,24 @@ body {
     color: #fff;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
 .brand span{
     color: aqua;
 }
 
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+}
+
 .menu a {
     color: #fff;
+    text-decoration: none;
 }
