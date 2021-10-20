@@ -7,3 +7,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+}
+
+.menu a{
+    color: #fff;
+}
