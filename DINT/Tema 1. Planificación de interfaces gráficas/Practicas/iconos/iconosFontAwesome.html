@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="container">
+
+    <h1>ICONOS GOOGLE</h1>
+
+    <div class="addIcons" style="text-align: justify;">
+        <h2>AÑADIR ICONOS</h2>
+        <p>Para poder añadir los iconos primero de todo tendremos que acceder con un link a la hoja de estilos de Google
+        </p>
+        <p><i>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"</i>&gt;</p>
+        <p>Para poder insertar un icono tendremos que utilizar la etiqueta &lt;i&gt; con el atributo <i>class</i> donde
+            introduciremos <i>"material-icons"</i> para referirnos a iconos</p>
+        <p>Si queremos indicar un icono tendremos que ponerle dentro de la etiqueta el nombre deseado</p>
+        <p>Ejemplo de Inserción:</p>
+        <p><i>&lt;i class="material-icons""&gt;home&lt;/i&gt;</i></p>
+        <p>Para poder cambiar de icono en este caso tendremos que cambiar la ultima palabra por la que referencie al
+            icono deseado</p>
+        <p>Ejemplos:</p>
+        <i class="material-icons">home</i>
+        <i class="material-icons">search</i>
+        <i class="material-icons">attachment</i>
+        <i class="material-icons">computer</i>
+
+    </div>
+    <br>
+
+    <div class="editIcons">
+        <h2>EDICION DE ICONOS</h2>
+        <p>Para poder editar un icono tendremos que agregar el atributo <i>Style</i> y lo que se quiera añadir</p>
+        <p>Ejemplos:</p>
+        <br>
+        <p>Tamaño de letra:</p>
+        <i class="material-icons" style="font-size: 35px;">traffic</i><br>
+        <p><i>&lt;i class="material-icons" style="font-size: 24px;"&gt; traffic &lt;/i&gt;</i></p>
+        <br>
+        <p>Tamaño de letra y color:</p>
+        <i class="material-icons" style="font-size:35px;color:lightblue;">cloud</i><br>
+        <p><i>&lt;i class="material-icons" style="font-size:35px;color:lightblue;"&gt; cloud &lt;/i&gt;</i></p>
+        <br>
+        <p>Tamaño de letra, color y sombras</p>
+        <i class="material-icons" style="font-size:35px;color:lightblue;text-shadow: 2px 2px 5px #000000;">favorite</i>
+        <p><i>&lt;i class="material-icons" style="font-size:30px;color:lightblue;text-shadow: 2px 2px 5px #000000;"&gt;
+                favorite &lt;/i&gt;</i></p>
+    </div>
+    <br>
+
+    <div class="conIcons">
+        <h2>COMBINACIONES DE ESTILOS</h2>
+        <p>Tambien se pueden realizar distintas combinaciones, por ejemplo podemos combinar un icono con un elemento
+            button</p>
+        <p>Para poder realizar una combinacion tendremos que definir un elemento cualquiera e introducir distintos
+            atributos de estilo</p>
+        <p>Ejemplo:</p>
+        <p>Para poder editar un icono a un boton primero crearemos el botó mediante las etiquetas &lt;Button&gt;</p>
+        <p>Si queremos decorarlo tendremos que agregar el atributo <i>Style</i> y lo que se quiera añadir</p>
+        <br>
+        <p>Tamaño de letra y color:</p>
+        <button class="material-icons" style="font-size:35px;color:lightblue;">cloud</button><br>
+        <p><i>&lt;button class="glyphicon glyphicon-cloud style="font-size:18px;color:red;"&gt;&lt;/button&gt;</i></p>
+    </div>
+    <br>
+
+
+</body>
+
+</html>
