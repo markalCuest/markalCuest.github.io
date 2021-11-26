@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Iconos Google</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
-<body>
-    
+
+<body style="padding: 6px;">
+
+    <h1>Iconos Font Awesome</h1>
+
+    <div style="text-align: justify;">
+        <h2>Como añadir iconos</h2>
+
+        <p>Para poder insertar los iconos de Font Awesome en nuestra pagina web, necesitaremos el siguiente link a la hoja de estilos</p>
+        <p><i>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"</i>&gt;</p>
+
+        <p>Para poder insertar un icono en nuestra pagina web tendremos que utilizar la etiqueta &lt;i&gt; con el atributo <i>class</i> al cual asignaremos
+         <i>"fa fa-cloud"</i> para referirnos al icono</p>
+        <p>Si queremos utilizar un icono en concreto tendremos que ponerle dentro de le etiqueta class despues de la primera clase
+            el icono que queremos utilizar, en este caso anterior seria <i>fa-cloud</i>
+        </p>
+
+        <p>Algunos ejemplos de iconos:</p>
+        <i class="fa fa-telegram"></i>
+        <i class="fa fa-address-card"></i>
+        <i class="fa fa-certificate"></i>
+        <i class="fa fa-headphones"></i>
+
+    </div>
+    <br>
+
+    <div>
+        <h2>Editar Iconos</h2>
+        <p>A la hora de editar un icono tendremos que agregar el atributo <i>Style</i> y dentro los parametros que quieras darle al icono</p>
+        <p>- Un tamaño mas grande o mas pequeño</p>
+        <i class="fa fa-headphones" style="font-size: 35px;"></i><br>
+        <p>utilizaremos el atributo font-size <i>&lt;i class="fa fa-headphones" style="font-size"&gt; &lt;/i&gt;</i></p>
+
+        <p>- Cambiar el color:</p>
+        <i class="fa fa-address-card" style="color:rgb(255, 0, 0);"></i><br>
+        <p><i>&lt;i class="fa fa-address-card" style="font-size:35px;color:lightblue;"&gt;&lt;/i&gt;</i></p>
+
+        <p>- Podemos añadirle tambien sombras a nuestro icono</p>
+        <i class="fa fa-telegram" style="font-size:35px;color:rgb(255, 0, 0);text-shadow: 2px 2px 5px #000000;"></i>
+        <p><i>&lt;i class="fa fa-telegram" style="font-size:30px;color:lightblue;text-shadow: 2px 2px 5px #000000;"&gt;&lt;/i&gt;</i></p>
+    </div>
+
+    <div>
+        <p>No solo podemos modificar el estilo de los iconos, si no que tambien podemos convertirlo en un botón, enlace..</p>
+        <a href="http://iesriberadecastilla.centros.educa.jcyl.es/sitio/" target="_blank"><i class="fa fa-certificate"></i></a>
+    </div>
+
 </body>
+
 </html>
