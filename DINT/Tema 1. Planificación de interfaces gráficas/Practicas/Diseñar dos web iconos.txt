@@ -1,6 +1,0 @@
-Diseñar dos "web"
-
-Como se insertan iconos de boostrab y google fonts
-
-como insertarlos, la cabecera, como se añaden los iconos, como darle estilos
-poner botones e hipervinculos (como el formtado de w2school)
