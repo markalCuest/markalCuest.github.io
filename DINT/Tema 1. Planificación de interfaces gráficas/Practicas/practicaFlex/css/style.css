@@ -1,0 +1,94 @@
+body {
+    background: gray;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: red;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background: palegreen;
+    width: 150px;
+}
+
+nav {
+    background: rgb(11, 73, 206);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav li{
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+}
+
+li:hover{
+    background: yellow;
+    color: black;
+}
+
+.mainbody {
+    background: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}  
+
+main {
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: 1.2rem;
+  }
+
+aside {
+    background: teal;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 1.5rem;
+}
+
+.imgaside {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+}
+
+footer {
+    background: turquoise;
+    color: #303030;
+    padding: 1rem;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: flex-start;
+}
+
+.footer-block {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  footer a {
+    color: #36d;
+  }
