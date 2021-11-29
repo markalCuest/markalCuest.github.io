@@ -1,0 +1,106 @@
+body{
+    background-image: url("../img/photo-1555949963-aa79dcee981c.jfif");
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    
+}
+
+.box{
+    flex: 1;
+    overflow: hidden;
+    margin: 8px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.20);
+    line-height: 0;
+    transition: all 600ms;
+}
+
+.box > img{
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: all 300ms;
+}
+
+.box > span{
+    font-size: 35px;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+}
+
+.box:hover{
+    flex: 50%;
+}
+
+.box:hover > img{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/photo-1555949963-aa79dcee981c.jfif");
+    background-size: cover;
+}
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menuHorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuHorizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menuHorizontal > li:hover{
+    background: red;
+}
+
+.menuVertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.menuHorizontal > li:hover .menuVertical{
+    display: block;
+}
+
+.menuVertical li:hover{
+    background: black;
+}
+
+.menuVertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
