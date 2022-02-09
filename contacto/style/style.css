@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../../img/photo-1555949963-aa79dcee981c.jfif");
+    background-size: cover;
+}
+
+#fondo {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    width: 400px;
+    height: 520px;
+    padding: 30px 50px;
+    background: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0), rgba(250, 250, 250, 7));
+}
+
+#form {
+    display: grid;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+.input-box {
+    display: grid;
+    position: relative;
+    grid-auto-flow: row;
+    margin: 15px 0;
+    grid-row-gap: 10px;
+}
+
+.input-box input {
+    height: 34px;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.2s;
+}
+
+.input-box input:focus {
+    outline: none;
+}
+
+.input-box i {
+    visibility: hidden;
+    position: absolute;
+    top: 36px;
+    right: 20px;
+}
+
+.input-box small {
+    visibility: hidden;
+    position: absolute;
+    top: 68px;
+    right: 20px;
+}
+
+.input-box.exito input {
+    border-color: #9dff00;
+}
+
+.input-box.error input {
+    border-color: #ff1900;
+}
+
+.input-box.exito i.iconicstroke-x {
+    color: #ACF33A;
+    visibility: visible;
+}
+
+.input-box.exito input {
+    background: #cffc88;
+}
+
+.input-box.error i.iconicstroke-check {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.input-box.error input {
+    background: #df7176;
+}
+
+.input-box.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    justify-self: center;
+    transition: background 2s;
+}
+
+#button:focus {
+    outline: red;
+    color: white;
+}
+
+#button:hover {
+    transform: scale(1.04);
+}
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menuHorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuHorizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menuHorizontal > li:hover{
+    background: red;
+}
+
+.menuVertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.menuHorizontal > li:hover .menuVertical{
+    display: block;
+}
+
+.menuVertical li:hover{
+    background: black;
+}
+
+.menuVertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
