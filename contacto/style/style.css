@@ -64,52 +64,15 @@ body {
     right: 20px;
 }
 
-.input-box.exito input {
-    border-color: #9dff00;
-}
-
-.input-box.error input {
-    border-color: #ff1900;
-}
-
-.input-box.exito i.iconicstroke-x {
-    color: #ACF33A;
-    visibility: visible;
-}
-
-.input-box.exito input {
-    background: #cffc88;
-}
-
-.input-box.error i.iconicstroke-check {
-    color: #e74c3c;
-    visibility: visible;
-}
-
-.input-box.error input {
-    background: #df7176;
-}
-
-.input-box.error small {
-    color: #e74c3c;
-    visibility: visible;
-}
-
 #button {
     width: 100px;
     height: 40px;
     border-radius: 8px;
     justify-self: center;
-    transition: background 2s;
-}
-
-#button:focus {
-    outline: red;
-    color: white;
+    transition: background 1s;
 }
 
 #button:hover {
-    transform: scale(1.04);
     background: #da1b24;
 }
 
