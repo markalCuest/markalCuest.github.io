@@ -1,12 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Helvetica;
     font-weight: bolder;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url("../../img/photo-1555949963-aa79dcee981c.jfif");
     background-size: cover;
 }
@@ -115,7 +114,7 @@ body{
     transform: scale(1.04);
 }
 
-nav{
+nav {
     max-width: 900px;
     margin: auto;
     background: #333;
@@ -123,24 +122,24 @@ nav{
     margin-top: 50px;
 }
 
-.menuHorizontal{
+.menuHorizontal {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-.menuHorizontal > li > a{
+.menuHorizontal>li>a {
     display: block;
     padding: 15px 20px;
     color: white;
     text-decoration: none;
 }
 
-.menuHorizontal > li:hover{
+.menuHorizontal>li:hover {
     background: red;
 }
 
-.menuVertical{
+.menuVertical {
     position: absolute;
     display: none;
     list-style: none;
@@ -148,15 +147,15 @@ nav{
     background: rgba(0, 0, 0, .5);
 }
 
-.menuHorizontal > li:hover .menuVertical{
+.menuHorizontal>li:hover .menuVertical {
     display: block;
 }
 
-.menuVertical li:hover{
+.menuVertical li:hover {
     background: black;
 }
 
-.menuVertical li a{
+.menuVertical li a {
     display: block;
     color: white;
     padding: 15px 15px 15px 20px;
