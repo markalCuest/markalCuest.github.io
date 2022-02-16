@@ -7,6 +7,9 @@
 body{
     background-image: url("../img/photo-1555949963-aa79dcee981c.jfif");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     
 }
 
