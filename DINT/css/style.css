@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url("../img/photo-1555949963-aa79dcee981c.jfif");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ body{
     background-position: center center;
 }
 
-nav{
+nav {
     max-width: 900px;
     margin: auto;
     background: #333;
@@ -20,24 +20,24 @@ nav{
     margin-top: 50px;
 }
 
-.menuHorizontal{
+.menuHorizontal {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-.menuHorizontal > li > a{
+.menuHorizontal>li>a {
     display: block;
     padding: 15px 20px;
     color: white;
     text-decoration: none;
 }
 
-.menuHorizontal > li:hover{
+.menuHorizontal>li:hover {
     background: red;
 }
 
-.menuVertical{
+.menuVertical {
     position: absolute;
     display: none;
     list-style: none;
@@ -45,73 +45,81 @@ nav{
     background: rgba(0, 0, 0, .5);
 }
 
-.menuHorizontal > li:hover .menuVertical{
+.menuHorizontal>li:hover .menuVertical {
     display: block;
 }
 
-.menuVertical li:hover{
+.menuVertical li:hover {
     background: black;
 }
 
-.menuVertical li a{
+.menuVertical li a {
     display: block;
     color: white;
     padding: 15px 15px 15px 20px;
     text-decoration: none;
 }
 
-.contenedor{
+.contenedor {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
 }
-.contenedor figure{
-   position:relative;
+
+.contenedor figure {
+    position: relative;
     height: 250px;
     cursor: pointer;
     width: 350px;
     overflow: hidden;
     border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
 }
-.contenedor figure img{
+
+.contenedor figure img {
     width: 100%;
     height: 100%;
     transition: all 400ms ease-out;
     will-change: transform;
 }
-.contenedor figure .capa{
+
+.contenedor figure .capa {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,103,123,0.7);
+    background: rgba(0, 103, 123, 0.7);
     transition: all 400ms ease-out;
     opacity: 0;
     visibility: hidden;
-   text-align: center;
+    text-align: center;
 }
-.contenedor figure:hover > .capa {
+
+.contenedor figure:hover>.capa {
     opacity: 1;
     visibility: visible;
 }
-.contenedor figure:hover > .capa h3{
+
+.contenedor figure:hover>.capa h3 {
     margin-top: 70px;
     margin-bottom: 15px;
 }
-.contenedor figure:hover > img{
+
+.contenedor figure:hover>img {
     transform: scale(1.3);
 }
-.contenedor figure .capa h3{
+
+.contenedor figure .capa h3 {
     color: #fff;
     font-weight: 400;
     margin-bottom: 120px;
     transition: all 400ms ease-out;
-     margin-top: 30px;
+    margin-top: 30px;
 }
-.contenedor figure .capa p{
+
+.contenedor figure .capa p {
     color: #fff;
     font-size: 15px;
     line-height: 1.5;
