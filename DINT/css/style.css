@@ -61,11 +61,11 @@ nav{
 }
 
 .contenedor{
-    width: 100%;
+    width: 1040px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 500px;
 }
 .contenedor figure{
    position:relative;
