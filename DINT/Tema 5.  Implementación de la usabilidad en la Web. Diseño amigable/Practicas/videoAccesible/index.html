@@ -1,0 +1,44 @@
+<meta name="robots" content="noindex">
+<html lang="en">
+
+<head>
+  <meta charset=utf-8>
+  <title>Video player with clickable transcript</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section id="all">
+    
+    <div class="center">
+      <button disabled id="buttonEnglish" class="efecto" onclick="loadTranscript('en');" >
+        Display English transcript
+      </button>
+      <button disabled id="buttonDeutsch" class="efecto" onclick="loadTranscript('de');" >
+        Display Deutsch transcript
+      </button>
+      <button disabled id="buttonEspanol" class="efecto" onclick="loadTranscript('es');">
+        Display Español transcript
+      </button>
+    </div>
+    
+    <br>
+
+    <video id="mVideo" preload="metadata" controls crossOrigin="anonymous">
+      <source src="video/elephants-dream-medium.mp4" type="video/mp4">
+      <source src="video/elephants-dream-medium.webm" type="video/webm">
+      <track label="English subtitles" kind="subtitles" srclang="en"
+        src="subtitulos/elephants-dream-chapters-en.vtt">
+      <track label="Deutsch subtitles" kind="subtitles" srclang="de"
+        src="subtitulos/elephants-dream-subtitles-de.vtt" default>
+      <track label="Español subtitles" kind="subtitles" srclang="es"
+        src="subtitulos/elephants-dream-subtitles-es.vtt">
+      <track label="English chapters" kind="chapters" srclang="en"
+        src="subtitulos/elephants-dream-chapters-en.vtt">
+    </video>
+    <div id="transcript"></div>
+  </section>
+
+  <script type="text/javaScript" src="js/script.js"></script>
+</body>
+</html>
