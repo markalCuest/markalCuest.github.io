@@ -34,7 +34,7 @@ nav {
 }
 
 .menuHorizontal>li:hover {
-    background: red;
+    background: rgb(70, 62, 62);
 }
 
 .menuVertical {
