@@ -39,8 +39,8 @@ header{
     text-decoration: none;
 }
 
-.menuHorizontal > li:hover{
-    background: red;
+.menuHorizontal>li:hover {
+    background: rgb(121, 116, 116);
 }
 
 .menuVertical{
