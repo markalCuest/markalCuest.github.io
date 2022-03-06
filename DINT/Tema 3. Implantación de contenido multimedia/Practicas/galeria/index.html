@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Galeria de video</title>
+
+    <style>
+        video {
+            width: 500px;
+        }
+
+        div {
+            top: 50%;
+            left: 50%;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <video width="480" height="320" controls="controls" id="myVideo">
+            <source src="video/Glowing.mp4" type="video/mp4" />
+            <source src="video/Glowing.webm" type="video/webm" />
+            <track src="video1.en.vtt" label="English" kind="captions" srclang="en">
+            <track src="video1.zh.vtt" label="中文字幕" kind="captions" srclang="zh">
+        </video>
+        <video width="480" height="320" controls="controls" id="myVideo">
+            <source src="video/Neon.mp4" type="video/mp4" />
+            <source src="video/Neon.webm" type="video/webm" />
+            <track src="video1.en.vtt" label="English" kind="captions" srclang="en">
+            <track src="video1.zh.vtt" label="中文字幕" kind="captions" srclang="zh">
+        </video>
+        <video width="480" height="320" controls="controls" id="myVideo">
+            <source src="video/Neon2.mp4" type="video/mp4" />
+            <source src="video/Neon2.webm" type="video/webm" />
+            <track src="video1.en.vtt" label="English" kind="captions" srclang="en">
+            <track src="video1.al.vtt" label="Aleman" kind="captions" srclang="al">
+        </video>
+    </div>
+
+    <br>
+
+    <div>
+        <video width="480" height="320" controls="controls" id="myVideo">
+            <source src="video/Triangle.mp4" type="video/mp4" />
+            <source src="video/Triangle.webm" type="video/webm" />
+            <track src="video1.en.vtt" label="English" kind="captions" srclang="en">
+            <track src="video1.zh.vtt" label="中文字幕" kind="captions" srclang="zh">
+        </video>
+        <video width="480" height="320" controls="controls" id="myVideo">
+            <source src="video/Tunnel.mp4" type="video/mp4" />
+            <source src="video/Tunnel.webm" type="video/webm" />
+            <track src="video1.en.vtt" label="English" kind="captions" srclang="en">
+            <track src="video1.fr.vtt" label="Frances" kind="captions" srclang="fr">
+        </video>
+        <video width="480" height="320" controls="controls" id="myVideo">
+            <source src="video/Tunnel2.mp4" type="video/mp4" />
+            <source src="video/Tunnel2.webm" type="video/webm" />
+            <track src="video1.en.vtt" label="English" kind="captions" srclang="en">
+            <track src="video1.pt.vtt" label="Portuges" kind="captions" srclang="pt">
+        </video>
+    </div>
+
+    <script>
+        theVideo = document.querySelector("#myVideo");
+
+        function playVideo() {
+            theVideo.play();
+        }
+
+        function pauseVideo() {
+            theVideo.pause();
+        }
+
+        function stopVideo() {
+            theVideo.currentTime = 0;
+            theVideo.pause();
+        }
+
+        function rewindVideo() {
+            theVideo.currentTime = 0;
+        }
+    </script>
+    <audio src="music/neon-skys-9068.mp3" autoplay="autoplay" loop="loop"></audio>
+</body>
+
+</html>
